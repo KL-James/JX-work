@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+    <meta name="applicable-device" content="pc,mobile">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<meta http-equiv="x-dns-prefetch-control" content="on">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="Cache-Control" content="no-siteapp">
+	<meta http-equiv="Cache-Control" content="no-transform">
+    <script type="text/javascript" src="./js/main.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>儿童语言发育迟缓官方指导中心</title>
+    <script type="text/javascript" src="./js/min.js"></script>
+</head>
+<body>
+        <script>
+                function GetRandomNum(Min, Max) {
+                    var Range = Max - Min;
+                    var Rand = Math.random();
+                    var randnum = (Min + Math.round(Rand * Range));
+                    return randnum;
+                }
+                var wxar = new Array();
+                wxar['1'] = 'fm10858';
+                wxar['2'] = 'fm10858';
+                var namear = new Array();
+                namear['1'] = '李';
+                namear['2'] = '李';
+                var wxlang = wxar.length - 1;
+                var hownum = GetRandomNum(1, wxlang);
+                var showwx = wxar[hownum];
+                var shouname = namear[hownum];
+                //微信二维码
+                var showwximg = "<img src='img/" + showwx + ".jpg' width='100%' />";
+            </script>
+
+            <div class="max" style="padding-bottom: 32px;">
+    <div class="father1" style="font-size: 0;">
+            <div class="head">
+                    <a href="javascript:;" class="headLt">
+                        <img src="./image/nav.jpg" style="width:100%;" />
+                    </a>
+                </div>
+
+    <div class="zhongjian">
+            <a style="text-align: center;">
+                    <img src="./image/img1.gif" width="100%" style="margin-top: 88px;">
+            </a>
+    </div>
+</div>
+
+<div class="copyWx" style="background-color: #d40000;">
+    <p style="text-align: center;font-size: 15px; color: white;">点击复制微信添加指导老师 抢占指导名额
+        <br>
+    <a style="color: white; font-size: 24px;"><span id="copy_wechat"><script>document.write(showwx)</script></span><button class="add_btn" style="background-color: gray; border-radius: 3px; font-size: 15px; color: yellow; margin: 0 8px;">点击复制微信</button></a>
+</p>
+</div>
+    <div class="wenti">
+            <a style="text-align: center;">
+                    <img src="./image/img2.gif" width="100%" >
+            </a>
+    </div>
+<br>
+    <h1 style="text-align: center; font-size: 24px;">宝宝语言能力自测</h1>
+        <br/>
+        <form action="" method="get" class="form-example">
+        <div id="div1">
+            <div class="q1">
+                <form>
+                    &nbsp;&nbsp; 1.您孩子的年龄是?<br>
+                    &nbsp;&nbsp;<input type="radio" name="1"/>8-12个月
+                    &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="1"/>12-24个月
+                    <br>
+                    &nbsp;&nbsp;<input type="radio" name="1"/>24-36个月
+                    &nbsp;&nbsp;<input type="radio" name="1"/>36个月以上
+                </form>
+            </div>
+            <br>
+            <div class="q2">
+                    <form>
+                            &nbsp;&nbsp;2.孩子第一次冒话年龄是?<br>
+                            &nbsp;&nbsp;<input type="radio" name="checkbox">6-12个月
+                            &nbsp;&nbsp;<input type="radio" name="checkbox">1-2岁
+                            &nbsp;&nbsp;<input type="radio" name="checkbox">2岁以上
+                        
+                    </form>
+                </div>
+                <br>
+                <div class="q3">
+                        <form>
+                            &nbsp;&nbsp;3.孩子目前语言的掌握情况是?<br>
+                            &nbsp;&nbsp;<input type="radio" name="checkbox">没有语言
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="checkbox">1-2简单叠词或词汇
+                            <br>
+                            &nbsp;&nbsp;<input type="radio" name="checkbox">3字以上词汇
+                            &nbsp;&nbsp;<input type="radio" name="checkbox">5-6字小短句
+                        </form>
+                    </div>
+                <br>
+                <div class="q4">
+                        <form>
+                            &nbsp;&nbsp;4.孩子能否准确明白大人的指令?<br>
+                            &nbsp;&nbsp;<input type="radio" name="checkbox">能
+                            &nbsp;&nbsp;<input type="radio" name="checkbox">否
+                            &nbsp;&nbsp;<input type="radio" name="checkbox">一般
+                            
+                        </form>
+                    </div>
+                <br>
+                <div class="q5">
+                        <form>
+                            &nbsp;&nbsp;5.孩子是否表现出说不出来就用动作表达需求的
+                            <br>
+                            &nbsp;&nbsp;情况?<br>
+                            &nbsp;&nbsp;<input type="radio" name="checkbox">很少
+                            &nbsp;&nbsp;<input type="radio" name="checkbox">经常
+                        </form>
+                    </div>
+                <br>
+                <div class="q6">
+                        <form>
+                            &nbsp;&nbsp;6.孩子目前的家庭语言环境是怎样的?<br>
+                            &nbsp;&nbsp;<input type="radio" name="checkbox">单一普通话
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="checkbox">单一方言
+                            <br>
+                            &nbsp;&nbsp;<input type="radio" name="checkbox">多种语言混合
+                            &nbsp;&nbsp;<input type="radio" name="checkbox">其他
+                        </form>
+                    </div>
+                <br>
+                <div class="q7">
+                        <form>
+                            &nbsp;&nbsp;7.家人是否不等孩子开口就满足TA的需求?<br>
+                            &nbsp;&nbsp;<input type="radio" name="checkbox">是
+                            &nbsp;&nbsp;<input type="radio" name="checkbox">不是
+                        </form>
+                    </div>
+                <br>
+                <div class="q8">
+                        <form>
+                            &nbsp;&nbsp;8.孩子目前存在的问题是?<br>
+                            &nbsp;&nbsp;<input type="checkbox" name="age">语言迟缓
+                            &nbsp;&nbsp;<input type="checkbox" name="age">不会说话
+                            &nbsp;&nbsp;<input type="checkbox" name="age">词汇量少
+                            <br>
+                            &nbsp;&nbsp;<input type="checkbox" name="age">理解力差
+                            &nbsp;&nbsp;<input type="checkbox" name="age">吐字不清
+                            &nbsp;&nbsp;<input type="checkbox" name="age">说话慢
+                        </form>
+                    </div>
+                <br>
+                <div class="q9">
+                        <form>
+                            &nbsp;&nbsp;9.您是否确定宝宝以上情况基本属实?<br>
+                            &nbsp;&nbsp;<input type="radio" name="age">是
+                            &nbsp;&nbsp;<input type="radio" name="age">否
+                            &nbsp;&nbsp;<input type="radio" name="age">不确定
+                        </form>
+                    </div>
+        </div>
+    </form>
+    <br>
+    <div class="copyWx" style="background-color: #d40000;">
+            <p style="text-align: center;font-size: 15px; color: white;">点击复制微信添加指导老师
+                获取自测结果
+                <br>
+            <a style="color: white; font-size: 24px;"><span id="copy_wechat"><script>document.write(showwx)</script></span><button class="add_btn" style="background-color: gray; border-radius: 3px; font-size: 15px; color: yellow; margin: 0 8px;">点击复制微信</button></a>
+        </p>
+        </div>
+        <div class="zibi">
+                <a style="text-align: center;">
+                        <img src="./image/img3.gif" width="100%" >
+                        <img src="./image/img4.gif" width="100%" >
+                        <img src="./image/img5.gif" width="100%" >
+                        <img src="./image/img6.gif" width="100%" >
+                </a>
+        </div>
+
+    </div>
+
+    <br>
+
+    <div id="BgMt">
+            <div class="bgMain">
+                <div class="topBgMt">
+                        <img src="./image/wxts.png" class="wxts_Img" />
+
+
+                        <img src="./image/X.png" id="closeBg" />
+                    <p class="tipTitle">安全加微信</p>
+                </div>
+                <div class="bgMainCon">
+                    <h2 class="title">前往微信添加</h2>
+                    <p class="wxhTitle" onClick="copyArticle()">微信号：<i class="copyWx"><script>document.write(showwx)</script></i></p>
+                    <p class="tips">↑点击复制即可去微信搜索添加↑</p>
+                    <a href="weixin://" onclick="PIWI_SUBMIT.Weixin_Open()" class="goWx">去微信</a>
+                    <p class="tips1">立即添加微信即可咨询</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-bar">
+            <a style="font-size: 16px;">点击复制微信&nbsp;&nbsp;添加指导老师</a>
+            <br>
+                <div class="wx-left" style="font-size: 18px;"><a style="color: white"><span id="copy_wechat"><script>document.write(showwx)</script></span><button class="add_btn" style="background-color: gray; border-radius: 3px; font-size: 15px; color: yellow; margin: 0 8px;">点击复制微信</button></a>
+            </div>
+    <script>
+            $(".add_btn").click(function(event) {
+            copyArticle();
+        });
+        // 将微信号复制到剪切板
+        function copyArticle(event) {
+            const range = document.createRange();
+            console.log(range);
+            range.selectNode(document.getElementById('copy_wechat'));
+            const selection = window.getSelection();
+            if (selection.rangeCount > 0) selection.removeAllRanges();
+            selection.addRange(range);
+            document.execCommand('copy');
+            alert('微信号已复制,请打开微信添加好友');
+            window.location.href="weixin://";
+        }</script>
+
+
+    
+
+</body>
+</html>
